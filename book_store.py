@@ -17,9 +17,6 @@ book2 = Book("The Alchemist", "Paulo Coelho", "0-06-250217-4", 1988)
 book3 = Book("A Man Called Ove", "Fredrik Backman", "9781476738024", 2012)
 
 for book in [book1, book2, book3]:
-    print(f"Title: {book.title}")
-    print(f"Author: {book.author}")
-    print(f"Age: {book.get_age()} years")
     print(f"Summary: {book.get_summary()}")
-    print()
+    
     
